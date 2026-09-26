@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shop the collection · Wara Fragrance</title>
+<meta name="description" content="All fifteen Wara Fragrance scents, from $25 gift packs to the $46 Moonbeam Smoky. Filter by unisex, for her, for him and gift sets.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdn.shopify.com">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400..600&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="ticker">
+  <div class="shell">
+    <ul>
+      <li>Nationwide delivery across Kenya</li>
+      <li>Order on WhatsApp · 0746 410 595</li>
+      <li>House prices $25 to $46</li>
+    </ul>
+  </div>
+</div>
+
+<header class="masthead">
+  <div class="shell masthead__bar">
+    <a class="wordmark" href="index.html">Wara<small>Fragrance · Mombasa</small></a>
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="shop.html" aria-current="page">Shop</a>
+      <a href="about.html">The house</a>
+    </nav>
+    <div class="masthead__tools">
+      <button class="iconbtn menubtn" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-menu">Menu</button>
+      <button class="iconbtn" type="button" data-cart-open aria-label="Bag, 0 items">
+        <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 5h10l-1 9H4L3 5Z" stroke="currentColor" stroke-width="1.4" fill="none"/><path d="M6 5V4a2 2 0 0 1 4 0v1" stroke="currentColor" stroke-width="1.4" fill="none"/></svg>
+        <span class="iconbtn__count num" data-cart-count>0</span>
+      </button>
+    </div>
+  </div>
+  <div class="shell">
+    <div class="mobilemenu" id="mobile-menu" data-open="false">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">The house</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="shell">
+    <div class="shophead">
+      <div>
+        <h1 class="display-s">The collection</h1>
+        <p class="lead">Fifteen fragrances, listed at the house's own prices. Filter by who it is for, or search by note.</p>
+      </div>
+      <div class="field searchbar">
+        <label class="sr-only" for="shop-search">Search by name, family or note</label>
+        <input id="shop-search" type="search" placeholder="Cedarwood, gourmand, Blush…" autocomplete="off">
+        <small>Try a note, a family, or a name.</small>
+      </div>
+    </div>
+
+    <div class="filters-bar">
+      <div class="filters" data-filter-root role="group" aria-label="Filter by who it is for">
+        <button class="filter" type="button" data-filter="all" aria-pressed="true">All 15</button>
+        <button class="filter" type="button" data-filter="unisex" aria-pressed="false">Unisex</button>
+        <button class="filter" type="button" data-filter="her" aria-pressed="false">For her</button>
+        <button class="filter" type="button" data-filter="him" aria-pressed="false">For him</button>
+        <button class="filter" type="button" data-filter="gift" aria-pressed="false">Gift packs</button>
+      </div>
+      <p class="result-line num" id="shop-count" aria-live="polite">15 scents</p>
+    </div>
+
+    <div class="grid-products mt-4" data-shop-grid></div>
+    <p class="note mt-4" id="shop-empty" hidden>Nothing in the house matches that. Try a different note, or clear the search.</p>
+  </section>
+
+  <section class="section section--tight">
+    <div class="shell">
+      <hr class="rule">
+      <div class="grid-2 mt-4">
+        <div>
+          <h2>Buying a first bottle</h2>
+          <p>If you are new to the house, start with the family rather than the name. Gourmand reads sweet and edible, fruity floral reads bright, aquatic reads clean, oriental woody reads warm and dark.</p>
+        </div>
+        <div class="notice">
+          <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.5v13M1.5 8h13" stroke="currentColor" stroke-width="1.4"/></svg>
+          <span>Every order is confirmed by a person on WhatsApp before it ships, so you can ask about a scent before you commit.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="shell section--tight">
+    <p class="foot__statement">Where every note tells your story.</p>
+    <div class="foot__cols">
+      <div>
+        <h3>Shop</h3>
+        <ul>
+          <li><a href="shop.html">All scents</a></li>
+          <li><a href="shop.html#gift">Gift packs</a></li>
+          <li><a href="shop.html">For her</a></li>
+          <li><a href="shop.html">For him</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>The house</h3>
+        <ul>
+          <li><a href="about.html">Our story</a></li>
+          <li><a href="about.html#wear">How to wear</a></li>
+          <li><a href="about.html#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Legal</h3>
+        <ul>
+          <li><a href="legal.html#terms">Terms of service</a></li>
+          <li><a href="legal.html#privacy">Privacy policy</a></li>
+          <li><a href="legal.html#delivery">Delivery and returns</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Visit</h3>
+        <ul>
+          <li>Mombasa, Kenya</li>
+          <li><a href="#">0746 410 595</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">TikTok</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot__bottom">
+      <span>© <span data-year>2026</span> Wara Fragrance. All prices in USD.</span>
+      <span><a href="legal.html#terms">Terms</a> · <a href="legal.html#privacy">Privacy</a></span>
+    </div>
+  </div>
+</footer>
+
+<script type="module" src="js/site.js"></script>
+</body>
+</html>

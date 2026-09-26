@@ -1,0 +1,73 @@
+/* Hallmark · macrostructure: Catalogue · tone: editorial-luxury · anchor hue: 45 (amber)
+ * theme: custom (vibe: "warm bone paper, ink brown, single amber accent")
+ * paper oklch(96.5% 0.012 85) · accent oklch(52% 0.145 45) amber · display Bodoni Moda + body Work Sans
+ */
+
+:root {
+  /* ---------- colour : warm bone paper, ink brown, one amber accent ---------- */
+  --color-paper: oklch(96.5% 0.012 85);
+  --color-paper-2: oklch(93.4% 0.015 82);
+  --color-paper-3: oklch(89.5% 0.018 80);
+  --color-ink: oklch(21.5% 0.018 58);
+  --color-ink-2: oklch(43% 0.016 58);
+  --color-ink-3: oklch(58% 0.014 60);
+  --color-rule: oklch(84% 0.016 78);
+  --color-rule-strong: oklch(70% 0.02 76);
+  --color-accent: oklch(52% 0.145 45);
+  --color-accent-deep: oklch(38.5% 0.108 44);
+  --color-accent-wash: oklch(93% 0.03 60);
+  --color-panel-dark: oklch(22% 0.02 55);
+  --color-panel-dark-ink: oklch(94% 0.012 82);
+  --color-panel-dark-ink-2: oklch(76% 0.014 78);
+  --color-focus: oklch(52% 0.145 45);
+  --color-success: oklch(48% 0.09 152);
+  --color-danger: oklch(50% 0.16 27);
+  --color-sold: oklch(52% 0.012 70);
+
+  /* ---------- type ---------- */
+  --font-display: 'Bodoni Moda', 'Times New Roman', serif;
+  --font-body: 'Work Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --text-xs: 0.75rem;    /* 12 */
+  --text-sm: 0.8125rem;  /* 13 */
+  --text-base: 0.9375rem;/* 15 */
+  --text-md: 1.0625rem;  /* 17 */
+  --text-lg: 1.25rem;    /* 20 */
+  --text-xl: 1.5rem;     /* 24 */
+  --text-2xl: 2rem;      /* 32 */
+  --text-3xl: 2.75rem;   /* 44 */
+  --text-display: 4.25rem;  /* 68 */
+  --text-display-s: 3.25rem;/* 52 */
+
+  --tracking-wide: 0.14em;
+  --tracking-normal: 0;
+  --tracking-tight: -0.015em;
+
+  /* ---------- 8pt space scale (one rhythm, every section) ---------- */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-5: 2.5rem;
+  --space-6: 3rem;
+  --space-8: 4rem;
+  --space-10: 5rem;
+  --space-12: 6rem;
+
+  --section: var(--space-12);      /* every section uses this */
+  --measure: 62ch;
+  --shell: 1240px;
+
+  /* ---------- depth : hairline rules only, no glow, no glass, no drop shadow ---------- */
+  --radius: 2px;
+  --radius-round: 999px;
+  --hairline: 1px solid var(--color-rule);
+
+  /* ---------- motion ---------- */
+  --dur-fast: 120ms;
+  --dur-base: 200ms;
+  --dur-slow: 320ms;
+  --ease-out: cubic-bezier(0.2, 0.7, 0.3, 1);
+  --ease-in: cubic-bezier(0.6, 0, 0.8, 0.3);
+  --ease-in-out: cubic-bezier(0.5, 0, 0.2, 1);
+}
